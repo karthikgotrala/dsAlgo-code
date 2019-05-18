@@ -1,0 +1,44 @@
+// Use IntelliSense to learn about possible attributes.
+// Hover to view descriptions of existing attributes.
+// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch SelectionSort.py",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/src/com/core/java/kg/sort/selectionsort",
+            "program": "${workspaceFolder}/src/com/core/java/kg/sort/selectionsort/SelectionSort.py"
+        },
+        {
+            "name": "Launch BinarySearch.py",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/src/com/core/java/kg/algorithms/binarysearch",
+            "program": "${workspaceFolder}/src/com/core/java/kg/algorithms/binarysearch/BinarySearch.py"
+        },
+        {
+            "name": "Launch SelectionSort.js",
+            "type": "node",
+            "console": "integratedTerminal",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/com/core/java/kg/sort/selectionsort/SelectionSort.js",
+            "cwd": "${workspaceFolder}/src/com/core/java/kg/sort/selectionsort"
+        },
+        {
+            "name": "Launch BubbleSort.py",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/src/com/core/java/kg/sort/bubblesort",
+            "program": "${workspaceFolder}/src/com/core/java/kg/sort/bubblesort/BubbleSort.py"
+        },
+        {
+            "name": "Launch LinearSearch.py",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/src/com/core/java/kg/algorithms/linearsearch",
+            "program": "${workspaceFolder}/src/com/core/java/kg/algorithms/linearsearch/LinearSearch.py"
+        }
+    ]
+}
