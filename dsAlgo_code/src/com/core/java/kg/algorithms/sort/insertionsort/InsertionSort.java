@@ -1,4 +1,4 @@
-package com.core.java.kg.sort.insertionsort;
+package com.core.java.kg.algorithms.sort.insertionsort;
 
 public class InsertionSort {
 

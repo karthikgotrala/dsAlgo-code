@@ -1,4 +1,4 @@
-package com.core.java.kg.sort.selectionsort;
+package com.core.java.kg.algorithms.sort.selectionsort;
 
 public class SelectionSort {
 

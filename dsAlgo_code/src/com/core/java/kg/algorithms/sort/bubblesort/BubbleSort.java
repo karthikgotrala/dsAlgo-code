@@ -1,4 +1,4 @@
-package com.core.java.kg.sort.bubblesort;
+package com.core.java.kg.algorithms.sort.bubblesort;
 
 public class BubbleSort {
 
