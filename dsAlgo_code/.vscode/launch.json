@@ -54,6 +54,14 @@
             "request": "launch",
             "program": "${workspaceFolder}/src/com/core/java/kg/sort/insertionsort/InsertionSort.js",
             "cwd": "${workspaceFolder}/src/com/core/java/kg/sort/insertionsort"
+        },
+        {
+            "name": "Launch MergeSort.js",
+            "type": "node",
+            "console": "integratedTerminal",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/com/core/java/kg/algorithms/sort/mergesort/MergeSort.js",
+            "cwd": "${workspaceFolder}/src/com/core/java/kg/algorithms/sort/mergesort"
         }
     ]
 }
