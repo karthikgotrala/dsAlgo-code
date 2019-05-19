@@ -39,6 +39,21 @@
             "request": "launch",
             "cwd": "${workspaceFolder}/src/com/core/java/kg/algorithms/linearsearch",
             "program": "${workspaceFolder}/src/com/core/java/kg/algorithms/linearsearch/LinearSearch.py"
+        },
+        {
+            "name": "Launch InsertionSort.py",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/src/com/core/java/kg/sort/insertionsort",
+            "program": "${workspaceFolder}/src/com/core/java/kg/sort/insertionsort/InsertionSort.py"
+        },
+        {
+            "name": "Launch InsertionSort.js",
+            "type": "node",
+            "console": "integratedTerminal",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/com/core/java/kg/sort/insertionsort/InsertionSort.js",
+            "cwd": "${workspaceFolder}/src/com/core/java/kg/sort/insertionsort"
         }
     ]
 }
