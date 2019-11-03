@@ -1,6 +1,9 @@
 package com.core.java.kg.algorithms.sort.test;
 
+import com.core.java.kg.algorithms.cyclesort.CycleSort;
 import com.core.java.kg.algorithms.heapsort.HeapSort;
+import com.core.java.kg.algorithms.isort.ISort;
+import com.core.java.kg.algorithms.pigeonholesort.PigeonholeSort;
 import com.core.java.kg.algorithms.sort.mergesort.MergeSort;
 
 public class SortTest {
@@ -23,14 +26,31 @@ public class SortTest {
 		HeapSort hs=new HeapSort();
 		hs.heapSort(hepArry);
 		printArray(hepArry,"Heap output");
+	
+		
+		int cycleArry[] = {12, 11, 13, 5, 6, 7}; 
+		printArray(cycleArry,"Cycle input");
+		ISort isorty=new CycleSort();
+		isorty.sort(cycleArry);
+		printArray(cycleArry,"Cycle output");
+		
+		
+		int piArry[] = {12, 11, 13, 5, 6, 7}; 
+		printArray(cycleArry,"PigeonHole input");
+		ISort pisort=new PigeonholeSort();
+		pisort.sort(piArry);
+		printArray(piArry,"PigeonHole output");
+		
+		
+		
 		
 	}
 	
 	
 	public static void printArray(int[] arr, String type) {
-		System.out.println("--------------"+type+"------------");
+		System.out.println("\n --------------"+type+"------------");
 		for(int i=0;i<=arr.length-1;i++){
-			System.out.print(arr[i]+", ");
+			System.out.print(arr[i]+" ");
 			if(i==arr.length-1) {
 				System.out.println("\n -------- END------------");
 			}

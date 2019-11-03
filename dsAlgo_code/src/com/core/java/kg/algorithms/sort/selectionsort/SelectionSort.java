@@ -9,7 +9,7 @@ public class SelectionSort {
 		
 
 
-int arr[]= {8,2,10,7,15,3};
+int arr[]= {256741038,623958417, 467905213, 714532089, 938071625};
 int n=arr.length;
 int i=0;
 
@@ -24,7 +24,7 @@ while(i<n-1){
 	 }
 	 
 	 int k=arr[i];
-	 arr[i]=k;
+	
 	 arr[i]=arr[min_index];
 	 arr[min_index]=k;
 	 i++;
