@@ -16,6 +16,7 @@ System.out.println(camelcase("saveTheChangesInTheEditor"));
 		 int p2=0;
 		 while(p2<s.length()) {
 			 
+			 
 			 if(Character.isUpperCase(s.charAt(p2))) {
 				 counter++;
 			 }
