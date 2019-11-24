@@ -28,7 +28,7 @@ public class FunnyString {
 			
 		//	System.out.println(abs);
 		}
-		System.out.println(s1.toString() +", "+s2.toString());
+		//System.out.println(s1.toString() +", "+s2.toString());
 		if(s1.toString().equals(s2.toString())) {
 			return "Funny";
 		}
